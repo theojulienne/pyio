@@ -1,6 +1,7 @@
 NOTE: Currently only works on platforms supporting kqueue (ie, BSD, OSX). epoll support coming soon.
 
-An example that runs 2 bash scripts, and displays output as it occurs
+An example that runs 2 bash scripts, and displays output as it occurs:
+
 	$ python example.py 
 	first  started with pid 13708
 	second started with pid 13709
