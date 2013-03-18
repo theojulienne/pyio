@@ -1,4 +1,4 @@
-NOTE: Currently only works on platforms supporting kqueue (ie, BSD, OSX). epoll support coming soon.
+NOTE: Currently only works on platforms supporting kqueue or epoll (ie, BSD, OSX, Linux >2.5.44).
 
 An example that runs 2 bash scripts, and displays output as it occurs:
 
