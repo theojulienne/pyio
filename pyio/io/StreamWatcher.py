@@ -122,7 +122,7 @@ else:
 					
 					if event & select.EPOLLIN != 0:
 						e.append( StreamEvent( fd, stream, data, 'read', num_bytes, eof ) )
-					elif event & select.EPOLLOUT != 0:
+					if event & select.EPOLLOUT != 0:
 						e.append( StreamEvent( fd, stream, data, 'write', num_bytes, eof ) )
 		
 			return e
